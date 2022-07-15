@@ -58,6 +58,8 @@ $ npm run test:cov
 
 ## Deploy
 
+It's necessary to change DB_PASSWORD in .env.production
+
 ```bash
 # production
 $ npm run deploy
