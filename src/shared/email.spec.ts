@@ -20,7 +20,7 @@ describe('Email', () => {
   });
 
   it.each([
-    ['teSt@teDt.com', 'test@test.com'],
+    ['teSt@teSt.com', 'test@test.com'],
     ['1234567890@test.com', '1234567890@test.com'],
     ['あいうえお@example.com', 'あいうえお@example.com'],
     ['Abc.123@test.es', 'abc.123@test.es'],
